@@ -1,0 +1,12 @@
+Source: ros-rolling-nobleo-socketcan-bridge
+Section: misc
+Priority: optional
+Maintainer: Ramon Wijnands <ramon.wijnands@nobleo.nl>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-clang-format <!nocheck>, ros-rolling-ament-cmake-cppcheck <!nocheck>, ros-rolling-ament-cmake-cpplint <!nocheck>, ros-rolling-ament-cmake-lint-cmake <!nocheck>, ros-rolling-ament-cmake-ros, ros-rolling-ament-cmake-xmllint <!nocheck>, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-can-msgs, ros-rolling-diagnostic-msgs, ros-rolling-diagnostic-updater, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-nobleo-socketcan-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, ros-rolling-can-msgs, ros-rolling-diagnostic-msgs, ros-rolling-diagnostic-updater, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-ros-workspace
+Description: Simple wrapper around SocketCAN
