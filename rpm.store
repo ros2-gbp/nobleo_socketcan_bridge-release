@@ -1,1 +1,1 @@
-{"base": "fac2cca", "parent": "rpm/rolling/nobleo_socketcan_bridge", "previous": "27bdc0b", "trim": "", "trimbase": ""}
+{"base": "b3cdd6297896", "parent": "rpm/kilted/nobleo_socketcan_bridge", "previous": "b7f85b97a433", "trim": "", "trimbase": ""}
