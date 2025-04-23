@@ -1,1 +1,1 @@
-{"base": "39b002f", "parent": "debian/rolling/nobleo_socketcan_bridge", "previous": "ad405b7", "trim": "", "trimbase": ""}
+{"base": "61be2d903542", "parent": "debian/kilted/nobleo_socketcan_bridge", "previous": "72f0fc26b653", "trim": "", "trimbase": ""}
