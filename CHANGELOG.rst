@@ -6,6 +6,12 @@
 Changelog for package nobleo_socketcan_bridge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2025-05-21)
+------------------
+* Remove deprecated call to ament_target_dependencies
+* Bump minimum CMake version to avoid compatiility warning
+* Contributors: Ramon Wijnands
+
 1.0.2 (2025-04-02)
 ------------------
 * fix: make `state_` atomic
