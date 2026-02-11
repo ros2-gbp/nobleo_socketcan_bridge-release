@@ -1,3 +1,26 @@
+## nobleo_socketcan_bridge (jazzy) - 1.0.4-1
+
+The packages in the `nobleo_socketcan_bridge` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy nobleo_socketcan_bridge` on `Wed, 11 Feb 2026 08:02:03 -0000`
+
+The `nobleo_socketcan_bridge` package was released.
+
+Version of package(s) in repository `nobleo_socketcan_bridge`:
+
+- upstream repository: https://github.com/nobleo/nobleo_socketcan_bridge.git
+- release repository: https://github.com/ros2-gbp/nobleo_socketcan_bridge-release.git
+- rosdistro version: `1.0.2-1`
+- old version: `1.0.2-1`
+- new version: `1.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## nobleo_socketcan_bridge (kilted) - 1.0.4-1
 
 The packages in the `nobleo_socketcan_bridge` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted nobleo_socketcan_bridge` on `Wed, 11 Feb 2026 08:00:49 -0000`
