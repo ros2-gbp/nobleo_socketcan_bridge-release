@@ -1,0 +1,12 @@
+Source: ros-lyrical-nobleo-socketcan-bridge
+Section: misc
+Priority: optional
+Maintainer: Ramon Wijnands <ramon.wijnands@nobleo.nl>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, linux-libc-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-clang-format <!nocheck>, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-can-msgs, ros-lyrical-diagnostic-msgs, ros-lyrical-diagnostic-updater, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-ros-workspace
+Homepage: https://github.com/nobleo/nobleo_socketcan_bridge
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-nobleo-socketcan-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, linux-libc-dev, ros-lyrical-can-msgs, ros-lyrical-diagnostic-msgs, ros-lyrical-diagnostic-updater, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-ros-workspace
+Description: Simple wrapper around SocketCAN
